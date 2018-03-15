@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/instance-eurekaclient1/instance-eurekaclient1.iml" filepath="$PROJECT_DIR$/instance-eurekaclient1/instance-eurekaclient1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/instance-eurekaclient1-2/instance-eurekaclient1-2.iml" filepath="$PROJECT_DIR$/instance-eurekaclient1-2/instance-eurekaclient1-2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/instance-service-config-client/instance-service-config-client.iml" filepath="$PROJECT_DIR$/instance-service-config-client/instance-service-config-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/instance-service-config-server/instance-service-config-server.iml" filepath="$PROJECT_DIR$/instance-service-config-server/instance-service-config-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/instance-service-feign/instance-service-feign.iml" filepath="$PROJECT_DIR$/instance-service-feign/instance-service-feign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/instance-service-ribbon/instance-service-ribbon.iml" filepath="$PROJECT_DIR$/instance-service-ribbon/instance-service-ribbon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/instance-service-zipkin-server/instance-service-zipkin-server.iml" filepath="$PROJECT_DIR$/instance-service-zipkin-server/instance-service-zipkin-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/instance-service-zuul/instance-service-zuul.iml" filepath="$PROJECT_DIR$/instance-service-zuul/instance-service-zuul.iml" />
+      <module fileurl="file://$PROJECT_DIR$/register-eurekaserver/register-eurekaserver.iml" filepath="$PROJECT_DIR$/register-eurekaserver/register-eurekaserver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/spring-cloud-v2.0.0-demo.iml" filepath="$PROJECT_DIR$/.idea/spring-cloud-v2.0.0-demo.iml" />
+    </modules>
+  </component>
+</project>

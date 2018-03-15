@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="instance-eurekaclient1" />
+        <module name="instance-eurekaclient1-2" />
+        <module name="instance-service-config-client" />
+        <module name="instance-service-config-server" />
+        <module name="instance-service-feign" />
+        <module name="instance-service-ribbon" />
+        <module name="instance-service-zipkin-server" />
+        <module name="instance-service-zuul" />
+        <module name="register-eurekaserver" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="instance-eurekaclient" target="1.8" />
+      <module name="instance-eurekaclient1" target="1.8" />
+      <module name="instance-eurekaclient1-2" target="1.8" />
+      <module name="instance-service-config-client" target="1.8" />
+      <module name="instance-service-config-server" target="1.8" />
+      <module name="instance-service-feign" target="1.8" />
+      <module name="instance-service-ribbon" target="1.8" />
+      <module name="instance-service-zipkin-server" target="1.8" />
+      <module name="instance-service-zuul" target="1.8" />
+      <module name="register-eurekaserver" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

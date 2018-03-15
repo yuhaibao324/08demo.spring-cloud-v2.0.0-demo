@@ -1,0 +1,26 @@
+#http://localhost:8765/hi?name=forezp
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+server:
+  port: 8765
+spring:
+  application:
+    name: service-feign
+
+#开启feign中自带断路器
+feign:
+  hystrix:
+    enabled: true
+
+#开启所有断点
+management:
+    endpoints:
+        web.exposure.include: '*'
+
+
+#通过引入弹簧云起动基普金依赖和设置spring.zipkin.base的URL
+spring:
+  zipkin:
+      base-url: http://localhost:9411

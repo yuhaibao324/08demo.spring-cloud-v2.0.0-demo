@@ -1,12 +1,15 @@
 package com.zbq;
 
+import com.netflix.hystrix.contrib.metrics.eventstream.HystrixMetricsStreamServlet;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.web.servlet.ServletRegistrationBean;
 import org.springframework.cloud.client.circuitbreaker.EnableCircuitBreaker;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
-import org.springframework.cloud.netflix.feign.EnableFeignClients;
+import org.springframework.cloud.netflix.hystrix.EnableHystrix;
 import org.springframework.cloud.netflix.hystrix.dashboard.EnableHystrixDashboard;
-
+import org.springframework.cloud.openfeign.EnableFeignClients;
+import org.springframework.context.annotation.Bean;
 
 /**
  Feign是一个声明式的伪Http客户端，它使得写Http客户端变得更简单。
@@ -32,6 +35,7 @@ import org.springframework.cloud.netflix.hystrix.dashboard.EnableHystrixDashboar
 //加入@EnableHystrixDashboard注解，开启hystrixDashboard
 @EnableHystrixDashboard
 @EnableCircuitBreaker
+@EnableHystrix//开启断路器功能
 public class InstanceServiceFeignApplication {
 
 	public static void main(String[] args) {
